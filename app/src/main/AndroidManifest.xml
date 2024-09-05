@@ -38,6 +38,9 @@
         <meta-data
             android:name="Student Portal"
             android:value="" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
