@@ -9,7 +9,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.signuplogin"
-        minSdk = 24
+        minSdk = 27
+        //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
