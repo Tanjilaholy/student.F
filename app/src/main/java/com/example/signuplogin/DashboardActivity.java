@@ -1,8 +1,6 @@
 package com.example.signuplogin;
 
 
-import static com.example.signuplogin.R.id.nav_home;
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
-import androidx.fragment.app.Fragment;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 

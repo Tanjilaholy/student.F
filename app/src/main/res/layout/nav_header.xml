@@ -6,7 +6,7 @@
     android:layout_height="200dp"
     android:gravity="bottom"
     android:padding="16dp"
-    android:background="@drawable/figma2"
+    android:background="@drawable/figma1"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView

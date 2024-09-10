@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "signup login"
+rootProject.name = "Student Portal"
 include(":app")
  

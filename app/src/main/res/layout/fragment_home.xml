@@ -23,7 +23,7 @@
             android:layout_marginTop="25dp"
             android:fontFamily="@font/adamina"
             android:text="Welcome to"
-            android:textColor="@color/dark"
+            android:textColor="@color/blue"
             android:textSize="35sp"
             app:layout_constraintEnd_toStartOf="@+id/logoImage"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="Student portal"
-            android:textColor="@color/dark"
+            android:textColor="@color/blue"
             android:textSize="25dp"
             app:layout_constraintEnd_toStartOf="@+id/logoImage"
             app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +86,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/adamina"
                         android:text="Class Routine"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -122,7 +122,7 @@
                         android:fontFamily="@font/adamina"
                         android:gravity="center"
                         android:text="Academic \nCalender"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:textSize="16dp" />
                     <ImageView
                         android:layout_width="80dp"
@@ -169,7 +169,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/adamina"
                         android:text="Waiver Info"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -205,7 +205,7 @@
                         android:fontFamily="@font/adamina"
                         android:gravity="center"
                         android:text="Semester \nRegistration"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:textSize="16dp" />
                     <ImageView
                         android:layout_width="80dp"
@@ -252,7 +252,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/adamina"
                         android:text="Result"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -285,7 +285,7 @@
                         android:text="Semester \nSchedule"
                         android:textSize="16dp"
                         android:gravity="center"
-                        android:textColor="@color/dark"
+                        android:textColor="@color/blue"
                         android:fontFamily="@font/adamina"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
