@@ -33,6 +33,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
         if (savedInstanceState == null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new homeFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
         }

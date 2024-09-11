@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/figma3"
     tools:context=".homeFragment">
 
 
@@ -17,15 +18,14 @@
 
         <TextView
             android:id="@+id/welcomeName"
-            android:layout_width="0dp"
-            android:layout_height="42dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/adamina"
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/abril_fatface"
             android:text="Welcome to"
             android:textColor="@color/blue"
             android:textSize="35sp"
-            app:layout_constraintEnd_toStartOf="@+id/logoImage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,23 +35,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/advent_pro_bold"
             android:text="Student portal"
             android:textColor="@color/blue"
             android:textSize="25dp"
-            app:layout_constraintEnd_toStartOf="@+id/logoImage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/welcomeName" />
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/logoImage"
-            android:src="@drawable/logo"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@id/welcomeName"/>
 
         <LinearLayout
             android:id="@+id/row1"
@@ -70,7 +59,8 @@
                 android:id="@+id/classroutineCard"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -105,7 +95,8 @@
                 android:id="@+id/classCard"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -153,7 +144,8 @@
                 android:id="@+id/waiverCard"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -188,7 +180,8 @@
                 android:id="@+id/semesterCard"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -236,7 +229,8 @@
                 android:layout_margin="10dp"
                 android:id="@+id/resultCard"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -271,7 +265,8 @@
                 android:id="@+id/scheduleCard"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardElevation="20dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/blu"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
